@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>SmartX One - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#caracteristicas" class="nav-link">Características</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <!-- Aquí pones la imagen de tu producto -->
+            <img src="./producto.jpg" alt="Imagen del producto SmartX One" class="profile-photo">
+            <h1 class="profile-name">SmartX One</h1>
+            <p class="profile-summary">
+               El nuevo SmartX One combina diseño elegante, alto rendimiento y tecnología de última generación. Creado para quienes buscan velocidad, estilo y conectividad en un solo dispositivo.
+            </p>
+            <div class="contact-info">
+                <p><strong>Precio de lanzamiento:</strong> $899 USD</p>
+                <p><strong>Disponibilidad:</strong> Desde octubre 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas" class="section">
+        <h2 class="section-title">Características principales</h2>
+        <div class="section-content">
+            <ul class="list">
+                <li>
+                    <h4>Pantalla OLED 6.7"</h4>
+                    <p>Resolución 4K con colores vibrantes y tecnología antirreflejo.</p>
+                </li>
+                <li>
+                    <h4>Cámara cuádruple 108MP</h4>
+                    <p>Fotografía profesional con estabilización avanzada y modo nocturno.</p>
+                </li>
+                <li>
+                    <h4>Batería de larga duración</h4>
+                    <p>Hasta 48 horas de uso continuo con carga rápida de 120W.</p>
+                </li>
+                <li>
+                    <h4>Procesador SmartCore X9</h4>
+                    <p>Velocidad ultrarrápida para gaming, streaming y productividad.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">¿Por qué elegir SmartX One?</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Ventajas Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Alta velocidad</li>
+                    <li>Innovación</li>
+                    <li>Durabilidad</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Beneficios</h3>
+                <ul class="list-inline">
+                    <li>Experiencia premium</li>
+                    <li>Diseño exclusivo</li>
+                    <li>Soporte 24/7</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctanos</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 SmartX One <br> Todos los derechos reservados.</p>
+        <p>Innovación que conecta contigo.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
